@@ -35,7 +35,7 @@ DoCycle() {
     if !running
         return
     ClickAt(OKAY)
-    SetTimer DoCycle, -Random(60000, 120000)   ; next try in 1-2 min
+    SetTimer DoCycle, -Random(30000, 60000)   ; next try in 30 - 60 secs
 }
 
 ClickAt(pos) {
